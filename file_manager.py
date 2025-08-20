@@ -4,7 +4,7 @@ import sys
 
 sys.stdout.reconfigure(encoding='utf-8')  # supaya print aman di Windows
 
-def organizer_files(main_folder):
+def organizer_files(main_folder): #jangan lupa buat folder Images, Audio, Documents, Archives, dan Executables
     extension_folders = {
         '.gif': 'Images',
         '.jpeg': 'Images',
@@ -50,5 +50,5 @@ def organizer_files(main_folder):
             else:
                 print(f"Skipping {repr(item)} (no folder mapping)")
 
-main_folder_path = r"D:\ASUS\Downloads" #update this to your folder
+main_folder_path = r"D:\ASUS\Downloads" #perbarui ini ke folder anda
 organizer_files(main_folder_path)
