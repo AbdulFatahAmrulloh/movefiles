@@ -50,5 +50,5 @@ def organizer_files(main_folder):
             else:
                 print(f"Skipping {repr(item)} (no folder mapping)")
 
-main_folder_path = r"D:\ASUS\Downloads"
+main_folder_path = r"D:\ASUS\Downloads" #update this to your folder
 organizer_files(main_folder_path)
